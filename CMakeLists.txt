@@ -3,5 +3,5 @@ project(hello)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp parent.cpp parent.h)
+set(SOURCE_FILES main.cpp parent.c child.c orphan.c)
 add_executable(hello ${SOURCE_FILES})

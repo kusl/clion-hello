@@ -1,7 +1,9 @@
-#include <iostream>
-
-
+#include "parent.c"
+#include "child.c"
+#include "orphan.c"
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    get_parent();
+    get_child();
+    get_orphan();
     return 0;
 }
